@@ -1,0 +1,25 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#be8db6",
+    "activityBar.background": "#be8db6",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#e5e8d6",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#be8db6",
+    "statusBar.background": "#ab6da1",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#915487",
+    "statusBarItem.remoteBackground": "#ab6da1",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#ab6da1",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#ab6da199",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#ab6da1",
+  "cSpell.words": [
+    "pattys"
+  ]
+}
