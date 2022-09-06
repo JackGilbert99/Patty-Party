@@ -5,3 +5,8 @@
   background-position: center;
 
 }
+
+.Board {
+  display: flex;
+  align-items: center;
+}

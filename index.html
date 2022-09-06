@@ -14,38 +14,48 @@
 
 </head>
 
-<body class="squidward">
+<body class="squidward container-fluid">
 
+  <div class="row">
 
-  <button class="btn btn-success-transparent text-light fs-1 chip" id="patty-btn">
-    <img src="imgbin_mr-krabs-hamburger-plankton-and-karen-krabby-patty-krusty-krab-png.png" alt="krabby-patty">
-  </button>
+    <button class="btn btn-success-transparent text-light fs-1 chip" id="patty-btn">
+      <img src="imgbin_mr-krabs-hamburger-plankton-and-karen-krabby-patty-krusty-krab-png.png" alt="krabby-patty">
+    </button>
+  </div>
 
-  <h1 id="click-Patty" class="text-light">Pattys: 0</h1>
+  <div class="row text-center">
+    <h1 id="click-Patty" class="text-light">Pattys: 0</h1>
+  </div>
 
+  <div class="row Board">
+    <div class="col-1">
+      <button class="btn btn-success mdi mdi-plus" id="auto-btn">
+        Auto
+      </button>
+    </div>
+    <div class="col-1">
+      <button class="btn btn-success mdi mdi-plus" id="double">
+        Triple
+      </button>
+    </div>
+    <div class="col-1">
+      <button class="btn btn-success mdi mdi-plus" id="spatula">
+        Spatula
+      </button>
+    </div>
+    <div class="col-1">
+      <button class="btn btn-success" id="oven">
+        Oven
+      </button>
+    </div>
 
-
-  <button class="btn btn-success mdi mdi-plus" id="auto-btn">
-    Auto Patty =
-  </button>
-
-  <button class="btn btn-success mdi mdi-plus" id="double">
-    Triple
-  </button>
-
-  <button class="btn btn-success mdi mdi-plus" id="spatula">
-    Spatula
-  </button>
-
-  <button class="btn btn-success mdi mdi-plus" id="oven">
-    Oven
-  </button>
+  </div>
 
   <div class="row text-light">
-    <div class="col" id="autoPattyCount">Auto Patty = 0</div>
-    <div class="col" id="DoubleCount">Triple = 0</div>
-    <div class="col" id="SpatulaCount">Spatula = 0</div>
-    <div class="col" id="Ovened">Oven = 0</div>
+    <div class="col-1" id="autoPattyCount">Auto Pattys = 0</div>
+    <div class="col-1" id="DoubleCount">Triple = 0</div>
+    <div class="col-1" id="SpatulaCount">Spatula = 0</div>
+    <div class="col-1" id="Ovened">Oven = 0</div>
   </div>
 
 
